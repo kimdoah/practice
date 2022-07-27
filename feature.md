@@ -2,3 +2,5 @@
 길드1
 길드2
 chingu gwanryeon gaebal
+chingu gwanryeon gaebal1
+
