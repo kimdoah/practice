@@ -14,7 +14,7 @@ for n in range(len(total) + 1, current + 1):
     numbers[0] = numbers[0].replace("조", "")
     numbers = list(map(int, numbers))
     total.append(numbers)
-    print(f"{n}회 로또 저장 완료!!! {numbers}")
+    print(f"{n}회 로또 develop/wonjun 저장 완료!!! {numbers}")
     time.sleep(1)
     # 피클 저장 사용 => 계속해서 데이터에 저장 - 중단했던 곳 부터 시작
     f = open("pension.dat", "wb")
